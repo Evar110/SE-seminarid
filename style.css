@@ -1,21 +1,95 @@
+body {
+    background-color: #ed991a;
+}
+
+body::before {
+    content: "";
+    background-image: url(veini\ pudel.2.png);
+    background-repeat: repeat;
+    background-size: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    filter: invert(1);
+    z-index: -1;
+}
+
 h1 {
     font-family: 'Brush Script MT', cursive;
     color: #55208a;
     text-align: center;
-    font-size: 72px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 p {
    font-family: 'Apple Chancery', cursive;
    text-align: center;
-   font-size: 24px;
-   color: #821229;
+   font-size: 20px;
+   color: #5b17e3;
 }
 
 img {
     display: block;
-    width: 300px;
+    width: 200px;
     height: auto;
     margin: 0 auto;
-    border: 5px solid #821229;
+    border: 5px solid #5b17e3;
+}
+
+.sisu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+}
+
+.vasak, .parem {
+    width: 50%;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #55208a;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    align-self: flex-start;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #5b17e3;
+    font-family: 'Apple Chancery', cursive;
+}
+
+ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+li {
+    text-align: left;
+}
+
+table {
+    border: 2px solid #5b17e3;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+th, td {
+    border: 1px solid #5b17e3;
+    padding: 8px;
+    font-family: 'Apple Chancery', cursive;
+    color: #5b17e3;
+    text-align: center;
+    font-size: 15px;
 }
