@@ -11,3 +11,11 @@ p {
    font-size: 24px;
    color: #821229;
 }
+
+img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #821229;
+}
